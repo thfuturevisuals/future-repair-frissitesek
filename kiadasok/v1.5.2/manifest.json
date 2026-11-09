@@ -1,0 +1,16 @@
+{
+ "name": "future-repair",
+ "version": "1.5.2",
+ "date": "2026-11-09",
+ "notes": "• Új kinézet: a CRM és a Delivery dizájnja – papír- és tintaszínek, teal kiemelés, Jost betű, kerek gombok és fülek, keret nélküli dobozok.\n• Világos és sötét mód: alapból a rendszert követi, jobb fent a kerek gombbal átállítható.\n• Új programikon, a stúdió többi alkalmazásához illően (a telepítővel kerül fel).\n• Frissítés: a nyilvános tárolóból is frissül; ha még nincs kiadás, nem hibát ír ki.\n• Telepítő: a változatlan Python-környezethez nem nyúl, így nem akad el a Claude által használt fájlokon; futó lemez-visszaállítás közben nem telepít.",
+ "app": {
+  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.2/FutureRepair-app-1.5.2.zip",
+  "sha256": "26099739584ba526095688a2bbdfdfdc712a04bf0bbd54e4615af247db58b178",
+  "size": 743764
+ },
+ "requires": {
+  "python": "3.12"
+ },
+ "key": "tfv-2026-11",
+ "signature": "WtUGKHIYZpXJuDA8ZTYsSSdjB0rUJDtxSCvKqjdmi8QVCpde/s4myZGtRGfj82Xmfx/op2DigKzvofuZACHuCQ=="
+}
