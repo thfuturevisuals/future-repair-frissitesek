@@ -1,16 +1,16 @@
 {
  "name": "future-repair",
- "version": "1.5.2",
+ "version": "1.5.3",
  "date": "2026-11-09",
- "notes": "• Új kinézet: a CRM és a Delivery dizájnja – papír- és tintaszínek, teal kiemelés, Jost betű, kerek gombok és fülek, keret nélküli dobozok.\n• Világos és sötét mód: alapból a rendszert követi, jobb fent a kerek gombbal átállítható.\n• Új programikon, a stúdió többi alkalmazásához illően (a telepítővel kerül fel).\n• Frissítés: a nyilvános tárolóból is frissül; ha még nincs kiadás, nem hibát ír ki.\n• Telepítő: a változatlan Python-környezethez nem nyúl, így nem akad el a Claude által használt fájlokon; futó lemez-visszaállítás közben nem telepít.",
+ "notes": "• Közös tudásbázis: ha egy javítás mintafájllal sikerül, vagy a lemez-visszaállítás ép felvételt hoz vissza, a program eltanulja annak a kamerának a fájlszerkezetét. Amit bármelyik gép megtanult, azt a többi is letölti, és a már látott kamerák sérült felvételét minta nélkül is megjavítja. A kép, a hang, a fájlnév és a helyadatok nem kerülnek fel. (A megosztáshoz a telepítő adta kulcs kell.)\n• Lemez-visszaállítás: a mappabejegyzésben 4 GB többszörösével rövidebbnek nyilvántartott felvétel a valódi méretével jön vissza; a másolóprogram kettévált írását is összerakja; ha egy darab már nincs a lemezen, a felvétel nem vész el, a hiányzó rész nullákkal pótolva visszajön.",
  "app": {
-  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.2/FutureRepair-app-1.5.2.zip",
-  "sha256": "26099739584ba526095688a2bbdfdfdc712a04bf0bbd54e4615af247db58b178",
-  "size": 743764
+  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.3/FutureRepair-app-1.5.3.zip",
+  "sha256": "b6dda80bb71e79d5f5c4f89aa296ae21b95135834a9fa549eae7178375f0672c",
+  "size": 760003
  },
  "requires": {
   "python": "3.12"
  },
  "key": "tfv-2026-11",
- "signature": "WtUGKHIYZpXJuDA8ZTYsSSdjB0rUJDtxSCvKqjdmi8QVCpde/s4myZGtRGfj82Xmfx/op2DigKzvofuZACHuCQ=="
+ "signature": "2STEoM8oajahc54BO0RI6PJxhFaS5keWyHYS7DZGkI0JZD5Z8FLF5Lz9rE2DHWJHiIAaKZDAArzGbyfcaz39Dg=="
 }
