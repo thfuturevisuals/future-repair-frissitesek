@@ -1,16 +1,16 @@
 {
  "name": "future-repair",
- "version": "1.5.3",
- "date": "2026-11-09",
- "notes": "• Közös tudásbázis: ha egy javítás mintafájllal sikerül, vagy a lemez-visszaállítás ép felvételt hoz vissza, a program eltanulja annak a kamerának a fájlszerkezetét. Amit bármelyik gép megtanult, azt a többi is letölti, és a már látott kamerák sérült felvételét minta nélkül is megjavítja. A kép, a hang, a fájlnév és a helyadatok nem kerülnek fel. (A megosztáshoz a telepítő adta kulcs kell.)\n• Lemez-visszaállítás: a mappabejegyzésben 4 GB többszörösével rövidebbnek nyilvántartott felvétel a valódi méretével jön vissza; a másolóprogram kettévált írását is összerakja; ha egy darab már nincs a lemezen, a felvétel nem vész el, a hiányzó rész nullákkal pótolva visszajön.",
+ "version": "1.5.4",
+ "date": "2026-11-11",
+ "notes": "• Lemez-visszaállítás, MXF (Sony FX6): nem ragad le órákra egy felvételen. Minden darabmérettel csak a közelben keres, utána a legjobb mérettel rakja össze; ami nincs meg a lemezen, annak a helyén üres kitöltés lesz, és a felvétel többi része ép marad (eddig semmi nem jött vissza belőle).\n• Előbb az egy darabban lévő fájlokat hozza vissza, utána az összerakandókat.\n• A napló nem áll meg 400 sor után, és a hosszú keresés közben látszik, mit csinál éppen.\n• Ha egy MP4 indexe hiányzik, ezt írja ki (nem azt, hogy „0 képkocka hibás”).",
  "app": {
-  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.3/FutureRepair-app-1.5.3.zip",
-  "sha256": "b6dda80bb71e79d5f5c4f89aa296ae21b95135834a9fa549eae7178375f0672c",
-  "size": 760003
+  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.4/FutureRepair-app-1.5.4.zip",
+  "sha256": "6385e24e5a783b2cababae1283718cf158d657cff7e914ee34bd4e5585a69e1e",
+  "size": 767651
  },
  "requires": {
   "python": "3.12"
  },
  "key": "tfv-2026-11",
- "signature": "2STEoM8oajahc54BO0RI6PJxhFaS5keWyHYS7DZGkI0JZD5Z8FLF5Lz9rE2DHWJHiIAaKZDAArzGbyfcaz39Dg=="
+ "signature": "qXcOY0SLBf+s3/AWb1y+4mG2phrqcyEoCRlrrxUKSYCp0HTXHipyFxsByOiojhvS3z3no8uvvslBEPSKz6UKBA=="
 }

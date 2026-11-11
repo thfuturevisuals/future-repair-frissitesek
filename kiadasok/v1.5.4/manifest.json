@@ -1,0 +1,16 @@
+{
+ "name": "future-repair",
+ "version": "1.5.4",
+ "date": "2026-11-11",
+ "notes": "• Lemez-visszaállítás, MXF (Sony FX6): nem ragad le órákra egy felvételen. Minden darabmérettel csak a közelben keres, utána a legjobb mérettel rakja össze; ami nincs meg a lemezen, annak a helyén üres kitöltés lesz, és a felvétel többi része ép marad (eddig semmi nem jött vissza belőle).\n• Előbb az egy darabban lévő fájlokat hozza vissza, utána az összerakandókat.\n• A napló nem áll meg 400 sor után, és a hosszú keresés közben látszik, mit csinál éppen.\n• Ha egy MP4 indexe hiányzik, ezt írja ki (nem azt, hogy „0 képkocka hibás”).",
+ "app": {
+  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.4/FutureRepair-app-1.5.4.zip",
+  "sha256": "6385e24e5a783b2cababae1283718cf158d657cff7e914ee34bd4e5585a69e1e",
+  "size": 767651
+ },
+ "requires": {
+  "python": "3.12"
+ },
+ "key": "tfv-2026-11",
+ "signature": "qXcOY0SLBf+s3/AWb1y+4mG2phrqcyEoCRlrrxUKSYCp0HTXHipyFxsByOiojhvS3z3no8uvvslBEPSKz6UKBA=="
+}
