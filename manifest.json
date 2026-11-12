@@ -1,16 +1,16 @@
 {
  "name": "future-repair",
- "version": "1.5.5",
- "date": "2026-11-11",
- "notes": "• Lemez-visszaállítás: a program a sérült lemezt nem a számáról ismeri fel (az újraindítás után megváltozhat), hanem a méretéről, a sorozatszámáról és a partícióiról. A korábbi lista betöltésekor magától kiválasztja a hozzá tartozó lemezt; ha a kiválasztott lemez nem az, el sem indul.\n• A lemez váltásakor a betöltött lista megmarad (eddig elveszett, és a program a Dokumentumok mappában kereste).\n• Egy rögtön leálló indítás nem törli az előző futás feljegyzését; ha mégis elveszett, a célmappában már meglévő egy darabban lévő fájlokat nem másolja újra.",
+ "version": "1.5.6",
+ "date": "2026-11-12",
+ "notes": "• Lemez-visszaállítás, MP4: ha egy darab ott van, ahol lennie kell, és a képkockái pontosan egyeznek a fájl indexével, a program akkor is felhasználja, ha a régi lista szerint valami más foglalja (pl. egy rég törölt fájl bent maradt bejegyzése). Eddig ilyenkor feladta – a 24 TB-os lemezen 74 felvétel akadt el így. A naplóban látszik, mi foglalta a helyet.\n• MXF: a mélykeresés legfeljebb 10 percig tart felvételenként (ezen a lemezen órákig sem talált semmit), így az éjszakai futás nem áll meg rajtuk.",
  "app": {
-  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.5/FutureRepair-app-1.5.5.zip",
-  "sha256": "a67d69147f05aa48db24ee61f13ee3bb254740a104e0b99f7cdedbb2bb179c3d",
-  "size": 769937
+  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.6/FutureRepair-app-1.5.6.zip",
+  "sha256": "5637e43f73bde506b4886c3e7fe7f33256e9cf705916baeff1a7678272aae84b",
+  "size": 771260
  },
  "requires": {
   "python": "3.12"
  },
  "key": "tfv-2026-11",
- "signature": "SnDebey6zjRhKEPlU8/InPj5hJZf6F9j6Nfb2C3l9aTLs2Yn0HWcfjtQFAz6fv7YyyaFgpS7WT6Xpue2R7gUCw=="
+ "signature": "yfa4SWJ8v/kQSme2GscQqHlddnHXylT2BcmHOVHDf5M9wZ41NCJ4AQ6opNeyeynMeJodwmdSqe0rRTdIMUyZCw=="
 }
