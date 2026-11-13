@@ -1,0 +1,16 @@
+{
+ "name": "future-repair",
+ "version": "1.5.7",
+ "date": "2026-11-13",
+ "notes": "• Gyorsabb, ha sok ezer fájlt hozol vissza: az állapotfájlt (minden fájl eredménye, több MB) a program legfeljebb másodpercenként egyszer írja ki, nem minden naplósornál; a már kész fájlok átugrása így nem tart perceken át.\n• A felület csak a megváltozott sorokat festi újra, és csak akkor olvassa be az állapotfájlt, ha az változott.",
+ "app": {
+  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.7/FutureRepair-app-1.5.7.zip",
+  "sha256": "3edc30d37f270fbb3b5b77dcb55ee834c71ab8e7bda59f46e628e88f9e0688fd",
+  "size": 771642
+ },
+ "requires": {
+  "python": "3.12"
+ },
+ "key": "tfv-2026-11",
+ "signature": "2jqOtK4lrsUCZ+NQ/u8HdX2QdE15fONpD9OTk29cX8och4A2b7JV3eeCqsfjttARUs5FsEzNGZvALx3rfW+SAQ=="
+}

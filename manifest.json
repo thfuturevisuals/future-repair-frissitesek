@@ -1,16 +1,16 @@
 {
  "name": "future-repair",
- "version": "1.5.6",
- "date": "2026-11-12",
- "notes": "• Lemez-visszaállítás, MP4: ha egy darab ott van, ahol lennie kell, és a képkockái pontosan egyeznek a fájl indexével, a program akkor is felhasználja, ha a régi lista szerint valami más foglalja (pl. egy rég törölt fájl bent maradt bejegyzése). Eddig ilyenkor feladta – a 24 TB-os lemezen 74 felvétel akadt el így. A naplóban látszik, mi foglalta a helyet.\n• MXF: a mélykeresés legfeljebb 10 percig tart felvételenként (ezen a lemezen órákig sem talált semmit), így az éjszakai futás nem áll meg rajtuk.",
+ "version": "1.5.7",
+ "date": "2026-11-13",
+ "notes": "• Gyorsabb, ha sok ezer fájlt hozol vissza: az állapotfájlt (minden fájl eredménye, több MB) a program legfeljebb másodpercenként egyszer írja ki, nem minden naplósornál; a már kész fájlok átugrása így nem tart perceken át.\n• A felület csak a megváltozott sorokat festi újra, és csak akkor olvassa be az állapotfájlt, ha az változott.",
  "app": {
-  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.6/FutureRepair-app-1.5.6.zip",
-  "sha256": "5637e43f73bde506b4886c3e7fe7f33256e9cf705916baeff1a7678272aae84b",
-  "size": 771260
+  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.7/FutureRepair-app-1.5.7.zip",
+  "sha256": "3edc30d37f270fbb3b5b77dcb55ee834c71ab8e7bda59f46e628e88f9e0688fd",
+  "size": 771642
  },
  "requires": {
   "python": "3.12"
  },
  "key": "tfv-2026-11",
- "signature": "yfa4SWJ8v/kQSme2GscQqHlddnHXylT2BcmHOVHDf5M9wZ41NCJ4AQ6opNeyeynMeJodwmdSqe0rRTdIMUyZCw=="
+ "signature": "2jqOtK4lrsUCZ+NQ/u8HdX2QdE15fONpD9OTk29cX8och4A2b7JV3eeCqsfjttARUs5FsEzNGZvALx3rfW+SAQ=="
 }
