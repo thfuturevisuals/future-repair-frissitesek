@@ -1,16 +1,16 @@
 {
  "name": "future-repair",
- "version": "1.5.7",
- "date": "2026-11-13",
- "notes": "• Gyorsabb, ha sok ezer fájlt hozol vissza: az állapotfájlt (minden fájl eredménye, több MB) a program legfeljebb másodpercenként egyszer írja ki, nem minden naplósornál; a már kész fájlok átugrása így nem tart perceken át.\n• A felület csak a megváltozott sorokat festi újra, és csak akkor olvassa be az állapotfájlt, ha az változott.",
+ "version": "1.5.8",
+ "date": "2026-11-15",
+ "notes": "• Lemez-visszaállítás: a 32 GB-nál nagyobb felvételek indexét (moov) is megtalálja. Eddig az index keresése 32 GB-nál megállt a fájl elejétől, így a hosszú felvételeké (ATEM ISO kamerafájlok, BRAW, órás Sony-felvételek) kívül esett rajta: a 24 TB-os lemezen 1,6 TB jött vissza emiatt „index nélkül”. Most először ott keresi, ahol egy egyben lévő fájlnál lennie kell, aztán a fájl méretével arányos távolságig.",
  "app": {
-  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.7/FutureRepair-app-1.5.7.zip",
-  "sha256": "3edc30d37f270fbb3b5b77dcb55ee834c71ab8e7bda59f46e628e88f9e0688fd",
-  "size": 771642
+  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.8/FutureRepair-app-1.5.8.zip",
+  "sha256": "3cc673c24a2ecf9c2b961acdf691e125c455e739cf1e6f046db8d22fa6207c63",
+  "size": 772019
  },
  "requires": {
   "python": "3.12"
  },
  "key": "tfv-2026-11",
- "signature": "2jqOtK4lrsUCZ+NQ/u8HdX2QdE15fONpD9OTk29cX8och4A2b7JV3eeCqsfjttARUs5FsEzNGZvALx3rfW+SAQ=="
+ "signature": "jEd6dbYcLh3nuAE29M8Bq3jGZHwSSyHF5zWEdB7tfxlDduK1J1XMUqBVJlZuyQGoBvIfbyXIhaqU7+k0m254DA=="
 }
