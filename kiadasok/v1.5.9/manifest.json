@@ -1,0 +1,16 @@
+{
+ "name": "future-repair",
+ "version": "1.5.9",
+ "date": "2026-11-21",
+ "notes": "• Lemez-visszaállítás: ha a program egy fájlból megtanulta a másolóprogram darabméretét, eddig minden darabokból álló fájl elejéből ekkora részt előre lefoglalt. Ha a lemezen több, más darabmérettel készült másolás van (a 24 TB-os lemezen 1, 8, 32 és 128 MB), ez a foglalás eltakarta az egymás mellett másolt felvételek darabjait – ebből lett a sok részleges felvétel („egy másik fájl vette el”). Most csak az első klasztert foglalja le, ami biztosan a fájlé.",
+ "app": {
+  "url": "https://raw.githubusercontent.com/thfuturevisuals/future-repair-frissitesek/main/kiadasok/v1.5.9/FutureRepair-app-1.5.9.zip",
+  "sha256": "0f4377173aa9123c032282a26d536ffb1afcb883c17604a0550218d907809915",
+  "size": 772109
+ },
+ "requires": {
+  "python": "3.12"
+ },
+ "key": "tfv-2026-11",
+ "signature": "t3BpASYoiSn0s8G4I48gNGsNHmVPN9Kn4SLY0qxknAog8BLP/ds1t9tglnXCL9GtPLAhGlD3aD6cgxmVrG7CBg=="
+}
